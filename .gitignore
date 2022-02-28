@@ -1,0 +1,13 @@
+# application
+/application/node_modules
+/application/src/secrets.json
+
+# server
+/server/node_modules
+/server/.env
+
+#misc 
+/photo_helper
+notes.txt
+IDEA.PNG
+app(vanilla)
