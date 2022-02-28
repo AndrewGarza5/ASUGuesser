@@ -5,11 +5,11 @@ const {
     GetAllGames, 
     GetGame, 
     CreateGame, 
-    UpdateGame, 
+    UpdateAmountOfPlayers, 
     DeleteGameAndPlayers
 } = require('../controllers/Games.js')
 
 router.route('/').get(GetAllGames).post(CreateGame)
-router.route('/:gameId').get(GetGame).patch(UpdateGame).delete(DeleteGameAndPlayers)
+router.route('/:gameId').get(GetGame).patch(UpdateAmountOfPlayers).delete(DeleteGameAndPlayers)
 
 module.exports = router
